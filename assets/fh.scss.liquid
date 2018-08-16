@@ -3,34 +3,118 @@ h1, h2, p {
 	color:white;
 }
 
+input{
+	background-color: rgba(0,0,0,0) !important;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+}
+
+.btn{
+	color:white;
+	background-color: rgba(0,0,0,0);
+	padding:0 !important;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+
+}
+
+.btn:hover{
+	color:green;
+	background-color: orange;
+}
+
+.password-page{
+	position:absolute;
+	top:0;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.shopify-section-password-header{
+	display: none;
+}
+
 .container-holding{
 	width: 100%;
 	background-color:black;
+
 }
 
 .logo-ticker{
 	margin-bottom:0 auto;
-	color:green;
+	height:25vh;
 }
+	.logo-contents{
+		font-size:9rem;
+		padding-top: 1rem;
+		letter-spacing: 2px;
+		color: red;
+	}
 
 .capture-holding{
 	width: 100%;
-	color:white;
-	background-color: blue;
+	height:10vh;
+	padding-top: .5%;
+	color:blue;
 }
+	.input-group__field{
+		margin-bottom:0;
+	}
+
+	#PasswordNewsletterForm-email{
+		padding:0;
+	}
+
+	.capture-holding .password__input-group{
+		padding-top: 1.5%;
+	}
+
+	.input-group__btn .btn, .input-group__btn .shopify-payment-button .shopify-payment-button__button--unbranded, .shopify-payment-button .input-group__btn .shopify-payment-button__button--unbranded{
+		font-family: Arial;
+		color:orange;
+		font-size: 1.3rem;
+	}
+
+	.btn:not([disabled]):hover, .shopify-payment-button .shopify-payment-button__button--unbranded:not([disabled]):hover, .btn:focus, .shopify-payment-button .shopify-payment-button__button--unbranded:focus{
+		color:green;
+	}
 
 .capture-video{
 	width:50%;
+	height:40vh;
 	float:left;
-	background-color: pink;
+	background-color:black;
+	overflow: hidden;
+
+	border:1px solid green;
 }
+		
+	.capture-video iframe{
+		width:130%;
+		height:130%;
+		margin-left:-15%;
+		margin-top:-15%;
+		
+
+	}
 
 .capture-collab{
 	width:50%;
+	height:40vh;
 	float:left;
-	background-color: brown;
+	background-color:black;
+	overflow: scroll;
+
+	border:1px solid green;
 
 }
+	.capture-collab p{
+		font-size: 4rem;
+	}
 
 .capture-live{
 	width: 100%;
@@ -38,18 +122,39 @@ h1, h2, p {
 
 .capture-earth{
 	width: 50%;
+	height:12.5vh;
 	float:left;
-	background-color:red;
+	background-color:black;
+
+	border:1px solid green;
 }
 
 .capture-call{
 	width: 50%;
+	height:12.5vh;
 	float:left;
-	background-color:orange;
+	background-color:black;
+
+	border:1px solid green;
 }
+
+	.capture-call p{
+		font-size: 5.75rem;
+	}
 
 .capture-interaction{
 	width: 100%;
+	height:12.5vh;
 	color:white;
-	background-color: green;
+	background-color:black;
+
+	border:1px solid green;
+}
+
+header { 
+	display: none; 
+}
+
+footer { 
+	display: none; 
 }

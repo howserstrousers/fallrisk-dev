@@ -1761,6 +1761,7 @@ a[href^="tel"] {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
+  /*
   border: 1px solid transparent;
   border-radius: $border-radius;
   padding: $input-padding-top-bottom-small $input-padding-left-right-small;
@@ -1773,6 +1774,7 @@ a[href^="tel"] {
   letter-spacing: 0.08em;
   white-space: normal;
   font-size: $font-size-base - 2;
+  */
 
   @include media-query($medium-up) {
     padding: $input-padding-top-bottom $input-padding-left-right;
@@ -1796,28 +1798,36 @@ a[href^="tel"] {
 }
 
 .btn--secondary {
+  /*
   background-color: transparent;
   color: $color-btn-primary;
   border-color: $color-btn-primary;
+  */
 
   &:not([disabled]):hover,
   &:focus {
+    /*
     background-color: transparent;
     color: $color-btn-primary-focus;
     border-color: $color-btn-primary-focus;
+    */
   }
 }
 
 .btn--secondary-accent {
+  /*
   background-color: $color-body;
   color: $color-btn-primary;
   border-color: $color-btn-primary;
+  */
 
   &:not([disabled]):hover,
   &:focus {
+    /*
     background-color:$color-body;
     color: $color-btn-primary-focus;
     border-color: $color-btn-primary-focus;
+    */
   }
 }
 
@@ -1852,7 +1862,7 @@ a[href^="tel"] {
   background-color: transparent;
   border: 0;
   margin: 0;
-  color: $color-text;
+  /*color: $color-text;*/
   text-align: left;
 
   &:not([disabled]):hover,
@@ -2322,7 +2332,7 @@ textarea {
 
 .form-message--error {
   border: 1px solid $color-error;
-  background-color: $color-error-bg;
+  background-color: rgba(0,0,0,0);
   padding: 1rem 1.3rem;
   text-align: left;
   width: 100%;
@@ -2365,10 +2375,10 @@ textarea {
 .input-group__field,
 .input-group__field input,
 .input-group__btn .btn {
-  min-height: $input-group-height-small;
+  /*min-height: $input-group-height-small;*/
 
   @include media-query($medium-up) {
-    min-height: $input-group-height;
+    /*min-height: $input-group-height;*/
   }
 }
 
@@ -2393,7 +2403,7 @@ textarea {
 
   .btn {
     width: 100%;
-    border-radius: 0 $border-radius $border-radius 0;
+    border-radius: 0 /*$border-radius $border-radius 0*/;
   }
 }
 
@@ -3168,9 +3178,9 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .password-main__inner {
-  display: table-cell;
+  display: block;
   vertical-align: middle;
-  padding: ($gutter-site / 2) $gutter-site;
+  padding:0 auto;
 }
 
 .password-message {
@@ -3179,7 +3189,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .password__input-group {
-  margin: 0 auto $gutter-site;
+  margin: 0 auto /*$gutter-site*/;
   max-width: 35rem;
 }
 
@@ -3193,10 +3203,12 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .password-powered-by {
+  display:none;
   margin-top: $gutter-site * 1.5;
 }
 
 .password-social-sharing {
+  display: none;
   margin-top: $gutter-site * 1.5;
 }
 
@@ -3560,6 +3572,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .template-blog .social-sharing {
+  display: none;
   margin-bottom: $section-spacing-small / 2;
 }
 
@@ -4306,8 +4319,10 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
   &:not([disabled]):hover,
   &:focus {
     background-color: transparent;
+    /*
     border-color: $color-btn-social-focus;
     color: $color-text;
+    */
   }
 
   .icon {

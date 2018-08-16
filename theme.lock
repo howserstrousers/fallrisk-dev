@@ -2,9 +2,9 @@
 assets/ajax-loader.gif:
   development: 2018-08-13T11:53:22-04:00   deca8b0ecd6974227d157b6d7068995d
 assets/fh-dev.js:
-  development: 2018-08-14T16:53:31-04:00   f5b24bde12cbb6d0d7ef8f892afc0765
+  development: 2018-08-15T17:56:46-04:00   74ab33b6e12d916b34d39815b3310364
 assets/fh.scss.liquid:
-  development: 2018-08-14T18:10:54-04:00   32281f224b15bb2d59497b17297200fe
+  development: 2018-08-16T09:29:47-04:00   54a39472618766d6ac732783f33bea8a
 assets/gift-card.js:
   development: 2018-08-13T11:53:22-04:00   5f64ba6cb76fbcd82773489d51785bf1
 assets/gift-card.scss.liquid:
@@ -15,12 +15,14 @@ assets/lazysizes.js:
   development: 2018-08-13T11:53:22-04:00   a27b15d827d7a26f9fa58fb6b4f9d4b6
 assets/match-media.min.js:
   development: 2018-08-13T11:53:22-04:00   d0bf06c458a236dcca39b3be8cf80ec5
+assets/npm-debug.log:
+  development: 2018-08-15T18:24:10-04:00   8530deb4e880ffbee18cc1341c2bdbd1
 assets/password.js:
-  development: 2018-08-13T11:53:22-04:00   e46783cdfaabc1b669e6aec104bf120e
+  development: 2018-08-15T19:05:02-04:00   714b20bc848459ce10ac74670233bf69
 assets/theme.js:
   development: 2018-08-13T11:53:22-04:00   804996ad4f481d4eaa7290bed5a2ab20
 assets/theme.scss.liquid:
-  development: 2018-08-13T11:53:23-04:00   ef718819cb298281772ac124acda2485
+  development: 2018-08-15T16:13:41-04:00   02588ba52d178a74a58106ee11ab99ae
 assets/vendor.js:
   development: 2018-08-13T11:53:23-04:00   465fb5b94497c1cdcd55ba6cb04ffeb2
 config/settings_data.json:
@@ -30,9 +32,9 @@ config/settings_schema.json:
 layout/gift_card.liquid:
   development: 2018-08-13T11:53:23-04:00   cf060607763db717a273bdf367f38403
 layout/password.liquid:
-  development: 2018-08-14T18:53:10-04:00   98338ab3f73791adf522c0cd28d3ca43
+  development: 2018-08-16T08:24:47-04:00   1d808547251d499e576c6fe9c68f09ce
 layout/theme.liquid:
-  development: 2018-08-14T16:03:26-04:00   bdfb0ef0e71ef13a51b598505dbbeeef
+  development: 2018-08-16T08:24:01-04:00   bdfb0ef0e71ef13a51b598505dbbeeef
 locales/de.json:
   development: 2018-08-13T11:53:23-04:00   cf58112803d34d17fd1903fcd2cb780e
 locales/en.default.json:
@@ -88,9 +90,9 @@ sections/map.liquid:
 sections/newsletter.liquid:
   development: 2018-08-13T11:53:21-04:00   0a3c601fb494f088c046b4b442a46858
 sections/password-content.liquid:
-  development: 2018-08-14T18:52:26-04:00   993c31a6697f4173e091770c9e165676
+  development: 2018-08-16T09:44:39-04:00   3d5d23def8caf02b45a2cf3f30020d5e
 sections/password-footer.liquid:
-  development: 2018-08-13T11:53:21-04:00   6d12ad6a6bc28197a0dc4fad04a3526f
+  development: 2018-08-15T17:37:20-04:00   33c7e32b0be3b8ff44de159fa8153ca9
 sections/password-header.liquid:
   development: 2018-08-13T11:53:21-04:00   3790142b8209460c7379b5635545e1ca
 sections/product-template.liquid:
@@ -226,7 +228,7 @@ templates/page.contact.liquid:
 templates/page.liquid:
   development: 2018-08-13T11:53:27-04:00   26f97d3355078de5c6678ed3b34ad7f6
 templates/password.liquid:
-  development: 2018-08-14T16:52:50-04:00   ccf530c1c77736422ea8233b8b754d33
+  development: 2018-08-15T17:55:15-04:00   f605df85954942f375ec238a8f9bfbf7
 templates/product.liquid:
   development: 2018-08-13T11:53:27-04:00   8097ca4b3e79eb006bba3c6c2b98e431
 templates/search.liquid:
