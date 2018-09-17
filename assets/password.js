@@ -132,7 +132,6 @@ $(function() {
   }
 });
 
-
 $(document).ready(function() {
         function setHeight() {
           windowHeight = $(window).innerHeight();
@@ -145,3 +144,8 @@ $(document).ready(function() {
         });
 });
 
+$(document).ready(function() {
+  $('.marquee').marquee({
+
+  });
+});

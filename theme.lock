@@ -13,12 +13,14 @@ assets/ico-select.svg.liquid:
   development: 2018-08-13T11:53:22-04:00   8353ec2fa4634bc8e95613a939e60a15
 assets/lazysizes.js:
   development: 2018-08-13T11:53:22-04:00   a27b15d827d7a26f9fa58fb6b4f9d4b6
+assets/marquee.js:
+  development: 2018-08-23T11:17:02-04:00   dcb4032d333672719323fc352088bfd6
 assets/match-media.min.js:
   development: 2018-08-13T11:53:22-04:00   d0bf06c458a236dcca39b3be8cf80ec5
 assets/npm-debug.log:
   development: 2018-08-15T18:24:10-04:00   8530deb4e880ffbee18cc1341c2bdbd1
 assets/password.js:
-  development: 2018-08-15T19:05:02-04:00   714b20bc848459ce10ac74670233bf69
+  development: 2018-08-23T11:53:47-04:00   bc07c332c7051ba4c166f67be8f8b300
 assets/theme.js:
   development: 2018-08-13T11:53:22-04:00   804996ad4f481d4eaa7290bed5a2ab20
 assets/theme.scss.liquid:
@@ -32,7 +34,7 @@ config/settings_schema.json:
 layout/gift_card.liquid:
   development: 2018-08-13T11:53:23-04:00   cf060607763db717a273bdf367f38403
 layout/password.liquid:
-  development: 2018-08-16T08:24:47-04:00   1d808547251d499e576c6fe9c68f09ce
+  development: 2018-08-23T11:20:34-04:00   7ceb3578267a87d85dfe6ce74f4c61cc
 layout/theme.liquid:
   development: 2018-08-16T08:24:01-04:00   bdfb0ef0e71ef13a51b598505dbbeeef
 locales/de.json:
@@ -90,7 +92,7 @@ sections/map.liquid:
 sections/newsletter.liquid:
   development: 2018-08-13T11:53:21-04:00   0a3c601fb494f088c046b4b442a46858
 sections/password-content.liquid:
-  development: 2018-08-16T10:00:52-04:00   73b0be9f77bbf03b53eb474b1bf33b50
+  development: 2018-08-23T11:52:30-04:00   73b0be9f77bbf03b53eb474b1bf33b50
 sections/password-footer.liquid:
   development: 2018-08-15T17:37:20-04:00   33c7e32b0be3b8ff44de159fa8153ca9
 sections/password-header.liquid:

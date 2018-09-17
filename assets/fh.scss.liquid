@@ -40,29 +40,47 @@ input{
 
 .container-holding{
 	width: 100%;
+	/*
 	background-color:black;
-
+	*/
 }
 
 .logo-ticker{
 	margin-bottom:0 auto;
-	height:25vh;
+	height:20vh;
 }
 	.logo-contents{
-		font-size:9rem;
+		font-size:10rem;
 		padding-top: 1rem;
 		letter-spacing: 2px;
 		color: red;
 	}
 
 .capture-holding{
-	width: 100%;
-	height:10vh;
-	padding-top: .5%;
-	color:blue;
+	position: absolute;
+    top: 65%;
+    width: 100%;
+    height: 15vh;
+    padding-top: 4%;
+    color: blue;
+}
+
+.speedlogo{
+	width: 80%;
+    left: 10%;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
 }
 	.input-group__field{
 		margin-bottom:0;
+		border-bottom: 1px solid black !important;
+	}
+
+	.input{
+		
+		font-family: "helvetica", sans-serif;
 	}
 
 	#PasswordNewsletterForm-email{
@@ -71,16 +89,32 @@ input{
 
 	.capture-holding .password__input-group{
 		padding-top: 1.5%;
+		padding-bottom: 2%;
 	}
 
 	.input-group__btn .btn, .input-group__btn .shopify-payment-button .shopify-payment-button__button--unbranded, .shopify-payment-button .input-group__btn .shopify-payment-button__button--unbranded{
 		font-family: Arial;
-		color:orange;
+		color:black;
 		font-size: 1.3rem;
+		padding-left: 2.5%
 	}
 
 	.btn:not([disabled]):hover, .shopify-payment-button .shopify-payment-button__button--unbranded:not([disabled]):hover, .btn:focus, .shopify-payment-button .shopify-payment-button__button--unbranded:focus{
-		color:green;
+		color:black;
+		border:1px solid black;
+		background-color: white;
+	}
+
+	.password__input-group{
+		left:50%;
+		translateX:(-50%);
+		max-width: 30rem;
+	}
+
+	@media only screen and (max-width: 600px) {
+	   	.password__input-group{
+			max-width: 19rem;
+		}
 	}
 
 .capture-video{
@@ -97,7 +131,7 @@ input{
 		width:130%;
 		height:130%;
 		margin-left:-15%;
-		margin-top:-15%;
+		margin-top:-7.5%;
 		
 
 	}
